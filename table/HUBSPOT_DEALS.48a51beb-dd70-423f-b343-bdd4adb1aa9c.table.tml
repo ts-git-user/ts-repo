@@ -16,12 +16,6 @@ table:
       index_type: DONT_INDEX
     db_column_properties:
       data_type: INT64
-  - name: HS_IS_CLOSED
-    db_column_name: HS_IS_CLOSED
-    properties:
-      column_type: ATTRIBUTE
-    db_column_properties:
-      data_type: BOOL
   - name: DEALNAME
     db_column_name: DEALNAME
     properties:
