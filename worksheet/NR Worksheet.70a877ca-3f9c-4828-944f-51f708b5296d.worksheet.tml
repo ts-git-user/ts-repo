@@ -1,0 +1,119 @@
+guid: 70a877ca-3f9c-4828-944f-51f708b5296d
+worksheet:
+  name: NR Worksheet
+  tables:
+  - name: HUBSPOT_DEALS
+    fqn: 48a51beb-dd70-423f-b343-bdd4adb1aa9c
+  table_paths:
+  - id: HUBSPOT_DEALS_1
+    table: HUBSPOT_DEALS
+    join_path:
+    - {}
+  worksheet_columns:
+  - name: ID
+    column_id: HUBSPOT_DEALS_1::ID
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Deal Name
+    column_id: HUBSPOT_DEALS_1::DEALNAME
+    properties:
+      column_type: ATTRIBUTE
+  - name: Forecast Amount
+    column_id: HUBSPOT_DEALS_1::HS_FORECAST_AMOUNT
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Date
+    column_id: HUBSPOT_DEALS_1::CREATEDATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: HS_DEAL_STAGE_PROBABILITY
+    column_id: HUBSPOT_DEALS_1::HS_DEAL_STAGE_PROBABILITY
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Days to Close
+    column_id: HUBSPOT_DEALS_1::DAYS_TO_CLOSE
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: HS_CREATED_BY_USER_ID
+    column_id: HUBSPOT_DEALS_1::HS_CREATED_BY_USER_ID
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: HS_PROJECTED_AMOUNT
+    column_id: HUBSPOT_DEALS_1::HS_PROJECTED_AMOUNT
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: HS_IS_CLOSED_WON
+    column_id: HUBSPOT_DEALS_1::HS_IS_CLOSED_WON
+    properties:
+      column_type: ATTRIBUTE
+  - name: DESCRIPTION
+    column_id: HUBSPOT_DEALS_1::DESCRIPTION
+    properties:
+      column_type: ATTRIBUTE
+  - name: AMOUNT_IN_HOME_CURRENCY
+    column_id: HUBSPOT_DEALS_1::AMOUNT_IN_HOME_CURRENCY
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: HS_CLOSED_AMOUNT
+    column_id: HUBSPOT_DEALS_1::HS_CLOSED_AMOUNT
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: CLOSEDATE
+    column_id: HUBSPOT_DEALS_1::CLOSEDATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: Deal Type
+    column_id: HUBSPOT_DEALS_1::DEALTYPE
+    properties:
+      column_type: ATTRIBUTE
+  - name: Amount
+    column_id: HUBSPOT_DEALS_1::AMOUNT
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: HS_LASTMODIFIEDDATE
+    column_id: HUBSPOT_DEALS_1::HS_LASTMODIFIEDDATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  - name: Pipeline
+    column_id: HUBSPOT_DEALS_1::PIPELINE
+    properties:
+      column_type: ATTRIBUTE
+  - name: Deal Stage
+    column_id: HUBSPOT_DEALS_1::DEALSTAGE
+    properties:
+      column_type: ATTRIBUTE
+  - name: PIPELINE_DISPLAY_ORDER
+    column_id: HUBSPOT_DEALS_1::PIPELINE_DISPLAY_ORDER
+    properties:
+      column_type: MEASURE
+      aggregation: SUM
+      index_type: DONT_INDEX
+  - name: Created Date
+    column_id: HUBSPOT_DEALS_1::CREATED_AT_DATE
+    properties:
+      column_type: ATTRIBUTE
+      index_type: DONT_INDEX
+  properties:
+    is_bypass_rls: false
+    join_progressive: true
