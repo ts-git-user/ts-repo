@@ -1,0 +1,160 @@
+guid: 084bd22e-3569-47c5-952f-62687157b4d3
+liveboard:
+  name: CxO Liveboard - simple
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Amount by Deal Stage
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Deal Stage]"
+      answer_columns:
+      - name: Total Amount
+      - name: Deal Stage
+      table:
+        table_columns:
+        - column_id: Deal Stage
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Deal Stage
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Deal Stage
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Deal Stage
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"Deal Stage\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"d7c5e49a-3ba7-4e03-948d-88bf2854572c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fff15e41-777f-49e9-81d1-82d3508b4183\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Deal Stage\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2E75F0\"}],\"tooltipConfig\": {}}"
+      display_mode: CHART_MODE
+    viz_guid: 2c45760f-fd14-4162-875b-30a1b6c6c17d
+  - id: Viz_2
+    answer:
+      name: Total Amount by Pipeline
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Pipeline] sort by [Amount] descending"
+      answer_columns:
+      - name: Total Amount
+      - name: Pipeline
+      table:
+        table_columns:
+        - column_id: Pipeline
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Pipeline
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Pipeline
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Pipeline
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"adc4e869-1962-4413-9447-9c7bba5a05f8\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d7c5e49a-3ba7-4e03-948d-88bf2854572c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fff15e41-777f-49e9-81d1-82d3508b4183\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"adc4e869-1962-4413-9447-9c7bba5a05f8\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2E75F0\"}],\"tooltipConfig\": {}}"
+      display_mode: CHART_MODE
+    viz_guid: 7d0a2f1a-e2b9-491b-9acb-7c0b5dac273a
+  - id: Viz_3
+    viz_guid: 47b75065-b115-4363-a690-08de683918b8
+    note_tile:
+      html_parsed_string: <h2><span>Liveboard v3</span></h2>
+  - id: Viz_4
+    answer:
+      name: Total Amount by Deal Stage and Deal Type
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Deal Stage] [Deal Type]"
+      answer_columns:
+      - name: Total Amount
+      - name: Deal Stage
+      - name: Deal Type
+      table:
+        table_columns:
+        - column_id: Deal Stage
+          show_headline: false
+        - column_id: Deal Type
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Deal Stage
+        - Deal Type
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Deal Stage
+        - column_id: Deal Type
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Deal Stage
+          "y":
+          - Total Amount
+          color:
+          - Deal Type
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Deal Stage\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Deal Type\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"51a4de60-8e97-42d8-ae2a-d17ec4520417\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"7f302ff8-468c-4f25-979f-0949b9c143e8\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Deal Stage\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}],\"tooltipConfig\": {}}"
+      display_mode: CHART_MODE
+    viz_guid: 375477bc-c6d4-4a05-9eae-0759a4cf932f
+  - id: Viz_5
+    viz_guid: b9d0cb94-744a-4fce-8c63-421ae9d616f8
+    note_tile:
+      html_parsed_string: <h1 dir="ltr"><span>v4</span></h1>
+  layout:
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 8
+        width: 6
+      - visualization_id: Viz_2
+        x: 6
+        "y": 4
+        height: 8
+        width: 6
+      - visualization_id: Viz_3
+        x: 0
+        "y": 12
+        height: 1
+        width: 12
+      - visualization_id: Viz_4
+        x: 6
+        "y": 0
+        height: 4
+        width: 6
+    - name: Tab 2
+      description: ""
+      tiles:
+      - visualization_id: Viz_5
+        x: 0
+        "y": 0
+        height: 1
+        width: 8
