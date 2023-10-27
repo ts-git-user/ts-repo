@@ -1,0 +1,18 @@
+guid: 1f73d09a-2065-4f46-995f-6929662fb3df
+liveboard:
+  name: demouse liveboard
+  visualizations:
+  - id: Viz_1
+    viz_guid: cd8dcbd4-e4f1-4b00-a2ae-0ebfecb3d391
+    note_tile:
+      html_parsed_string: <h1 dir="ltr"><span>Tab1</span></h1>
+  layout:
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 0
+        height: 4
+        width: 3

@@ -158,3 +158,5 @@ liveboard:
         "y": 0
         height: 1
         width: 8
+    - name: Tab 3
+      description: ""

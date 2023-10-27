@@ -251,6 +251,10 @@ liveboard:
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3c932177-951e-46f6-8b71-61eda9487322\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"d03be7ee-4a5b-4aff-8ad5-8e2d2b6e6282\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
       display_mode: CHART_MODE
     viz_guid: 6a1c9e24-0848-4d77-9f47-27afc5321817
+  - id: Viz_9
+    viz_guid: f51e9afb-0001-4f1b-8f9b-d55ff3645125
+    note_tile:
+      html_parsed_string: <h1 dir="ltr"><span>Changes from demouser </span></h1>
   layout:
     tabs:
     - name: Tab 1
@@ -304,3 +308,11 @@ liveboard:
       description: ""
     - name: Tab 5
       description: ""
+    - name: Tab 6
+      description: ""
+      tiles:
+      - visualization_id: Viz_9
+        x: 0
+        "y": 0
+        height: 4
+        width: 3
