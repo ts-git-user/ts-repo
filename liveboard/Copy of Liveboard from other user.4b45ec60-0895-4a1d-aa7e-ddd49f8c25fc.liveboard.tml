@@ -1,6 +1,6 @@
-guid: c09b2ab0-5b22-4499-bf64-39c625849891
+guid: 4b45ec60-0895-4a1d-aa7e-ddd49f8c25fc
 liveboard:
-  name: Liveboard from other user
+  name: Copy of Liveboard from other user
   visualizations:
   - id: Viz_1
     answer:
@@ -37,7 +37,7 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"Deal Stage\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"d7c5e49a-3ba7-4e03-948d-88bf2854572c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fff15e41-777f-49e9-81d1-82d3508b4183\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Deal Stage\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
-    viz_guid: 0db22591-2a1a-42e1-b3b2-dbca6ba3bb33
+    viz_guid: 9adf90f8-b9c1-461c-a421-06c040fbe5df
   - id: Viz_2
     answer:
       name: Total Amount by Pipeline
@@ -73,9 +73,9 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"adc4e869-1962-4413-9447-9c7bba5a05f8\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d7c5e49a-3ba7-4e03-948d-88bf2854572c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fff15e41-777f-49e9-81d1-82d3508b4183\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"adc4e869-1962-4413-9447-9c7bba5a05f8\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
-    viz_guid: e9ccf3b0-2f83-46f2-b72c-00570ff175d4
+    viz_guid: 69adaa35-f6c2-444d-9673-fd97c3e12606
   - id: Viz_3
-    viz_guid: a8780ed2-6d22-4cc9-ba1e-d1a440e6ddda
+    viz_guid: 368c1eb4-6f36-48ba-a534-75c9c966a0cd
     note_tile:
       html_parsed_string: <h2><span>Liveboard v3</span></h2>
   - id: Viz_4
@@ -113,7 +113,7 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Month(Date)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7ef2bca0-0e75-4132-8d48-a9f6e4acae61\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"ab693957-1496-43df-9f8f-f04fd346816b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
       display_mode: CHART_MODE
-    viz_guid: 427468ff-b8b6-482a-acf2-46fe686611a4
+    viz_guid: 6e25d25a-8fdf-4617-b921-1c27116c3fc6
   - id: Viz_5
     answer:
       name: Total Amount by Deal Stage and Deal Type
@@ -156,7 +156,7 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Deal Stage\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Deal Type\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"51a4de60-8e97-42d8-ae2a-d17ec4520417\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"7f302ff8-468c-4f25-979f-0949b9c143e8\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Deal Stage\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
       display_mode: CHART_MODE
-    viz_guid: c9748358-958e-4d0f-8af0-2985a136b7b9
+    viz_guid: 774308e5-5716-4776-b4e9-2abe4adfbe40
   - id: Viz_6
     answer:
       name: Total Amount by Monthly Date
@@ -185,7 +185,7 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3c932177-951e-46f6-8b71-61eda9487322\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"d03be7ee-4a5b-4aff-8ad5-8e2d2b6e6282\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
       display_mode: CHART_MODE
-    viz_guid: 73c862bf-f2c7-4461-9056-9cad4ff3324f
+    viz_guid: df5326cb-0bbe-4e4d-a2a2-84d65d37d344
   - id: Viz_7
     answer:
       name: Total Amount by Monthly Date
@@ -221,7 +221,7 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Month(Date)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7ef2bca0-0e75-4132-8d48-a9f6e4acae61\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"ab693957-1496-43df-9f8f-f04fd346816b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
       display_mode: CHART_MODE
-    viz_guid: 84f410dd-b9a3-4795-94b3-a950813b77c4
+    viz_guid: 85b96b03-58dc-482a-822a-b25645c04949
   - id: Viz_8
     answer:
       name: Total Amount by Monthly Date
@@ -250,11 +250,11 @@ liveboard:
         client_state: ""
         client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3c932177-951e-46f6-8b71-61eda9487322\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"d03be7ee-4a5b-4aff-8ad5-8e2d2b6e6282\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
       display_mode: CHART_MODE
-    viz_guid: 6a1c9e24-0848-4d77-9f47-27afc5321817
+    viz_guid: 939134bd-bd07-406b-976d-deee6edf31d4
   - id: Viz_9
-    viz_guid: f51e9afb-0001-4f1b-8f9b-d55ff3645125
+    viz_guid: 2488eadf-89d0-4894-820b-80567aa9e166
     note_tile:
-      html_parsed_string: <h1 dir="ltr"><span>Changes from demouser2</span></h1>
+      html_parsed_string: <h1 dir="ltr"><span>Changes from demouser </span></h1>
   layout:
     tabs:
     - name: Tab 1
