@@ -1,0 +1,313 @@
+guid: f7b423a6-ee9c-49ca-bdd5-84e59143b8a4
+liveboard:
+  name: CxO Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Amount by Deal Stage
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Deal Stage]"
+      answer_columns:
+      - name: Total Amount
+      - name: Deal Stage
+      table:
+        table_columns:
+        - column_id: Deal Stage
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Deal Stage
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Deal Stage
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Deal Stage
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}},\"showStackedLabels\": true,\"allLabels\": true},\"columnProperties\": [{\"columnId\": \"Deal Stage\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {\"dataLabels\": true}}],\"axisProperties\": [{\"id\": \"d7c5e49a-3ba7-4e03-948d-88bf2854572c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fff15e41-777f-49e9-81d1-82d3508b4183\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Deal Stage\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 14a02086-222d-4422-ad74-1cc6b7680c4a
+    action_object_associations:
+    - action_name: Local action 1
+      context: MENU
+      enabled: true
+    - action_name: Local action 2
+      context: CONTEXT_MENU
+      enabled: true
+  - id: Viz_2
+    answer:
+      name: Total Amount by Pipeline
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Pipeline] sort by [Amount] descending"
+      answer_columns:
+      - name: Total Amount
+      - name: Pipeline
+      table:
+        table_columns:
+        - column_id: Pipeline
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Pipeline
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Pipeline
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Pipeline
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"adc4e869-1962-4413-9447-9c7bba5a05f8\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"d7c5e49a-3ba7-4e03-948d-88bf2854572c\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"fff15e41-777f-49e9-81d1-82d3508b4183\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"adc4e869-1962-4413-9447-9c7bba5a05f8\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 4b88705e-f1a0-40da-b35a-e80ffa91c069
+  - id: Viz_3
+    viz_guid: 3ff16277-f9d0-4946-a31b-83b2b91aad14
+    note_tile:
+      html_parsed_string: <h2><span>Liveboard v3</span></h2>
+  - id: Viz_4
+    answer:
+      name: Total Amount by Monthly Date
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Date] [Date].monthly"
+      answer_columns:
+      - name: Total Amount
+      - name: Month(Date)
+      table:
+        table_columns:
+        - column_id: Month(Date)
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Month(Date)
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Month(Date)
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Month(Date)
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Month(Date)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7ef2bca0-0e75-4132-8d48-a9f6e4acae61\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"ab693957-1496-43df-9f8f-f04fd346816b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: a1a61e9b-e1b6-4984-a1df-4d18ea045c13
+  - id: Viz_5
+    answer:
+      name: Total Amount by Deal Stage and Deal Type
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Deal Stage] [Deal Type]"
+      answer_columns:
+      - name: Total Amount
+      - name: Deal Stage
+      - name: Deal Type
+      table:
+        table_columns:
+        - column_id: Deal Stage
+          show_headline: false
+        - column_id: Deal Type
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Deal Stage
+        - Deal Type
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Deal Stage
+        - column_id: Deal Type
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Deal Stage
+          "y":
+          - Total Amount
+          color:
+          - Deal Type
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Deal Stage\",\"columnProperty\": {}},{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Deal Type\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"51a4de60-8e97-42d8-ae2a-d17ec4520417\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"7f302ff8-468c-4f25-979f-0949b9c143e8\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Deal Stage\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"},{\"serieName\": \"existing business\",\"color\": \"#48D1E0\"},{\"serieName\": \"new business\",\"color\": \"#2E75F0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 46159577-3102-4c18-a5e5-ff3ff4d52d38
+  - id: Viz_6
+    answer:
+      name: Total Amount by Monthly Date
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount]"
+      answer_columns:
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Amount
+        axis_configs:
+        - "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3c932177-951e-46f6-8b71-61eda9487322\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"d03be7ee-4a5b-4aff-8ad5-8e2d2b6e6282\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: d112b880-be59-4474-82e4-46a0877b38f0
+  - id: Viz_7
+    answer:
+      name: Total Amount by Monthly Date
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount] [Date] [Date].monthly"
+      answer_columns:
+      - name: Total Amount
+      - name: Month(Date)
+      table:
+        table_columns:
+        - column_id: Month(Date)
+          show_headline: false
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Month(Date)
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Month(Date)
+        - column_id: Total Amount
+        axis_configs:
+        - x:
+          - Month(Date)
+          "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}},{\"columnId\": \"Month(Date)\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"7ef2bca0-0e75-4132-8d48-a9f6e4acae61\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"ab693957-1496-43df-9f8f-f04fd346816b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Month(Date)\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 88617ffe-f318-445d-b540-6994d62b3d88
+  - id: Viz_8
+    answer:
+      name: Total Amount by Monthly Date
+      tables:
+      - id: NR Worksheet
+        name: NR Worksheet
+        fqn: 70a877ca-3f9c-4828-944f-51f708b5296d
+      search_query: "[Amount]"
+      answer_columns:
+      - name: Total Amount
+      table:
+        table_columns:
+        - column_id: Total Amount
+          show_headline: false
+        ordered_column_ids:
+        - Total Amount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Amount
+        axis_configs:
+        - "y":
+          - Total Amount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Amount\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"3c932177-951e-46f6-8b71-61eda9487322\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Amount\"],\"isOpposite\": false}},{\"id\": \"d03be7ee-4a5b-4aff-8ad5-8e2d2b6e6282\",\"properties\": {\"axisType\": \"X\"}}],\"systemSeriesColors\": [{\"serieName\": \"Total Amount\",\"color\": \"#2770ef\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2e9232ba-295a-4f43-981d-cd1259e18a32
+  layout:
+    tabs:
+    - name: Tab 1
+      description: ""
+      tiles:
+      - visualization_id: Viz_1
+        x: 0
+        "y": 4
+        height: 8
+        width: 6
+      - visualization_id: Viz_2
+        x: 6
+        "y": 8
+        height: 8
+        width: 6
+      - visualization_id: Viz_3
+        x: 0
+        "y": 16
+        height: 1
+        width: 12
+      - visualization_id: Viz_4
+        x: 0
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_5
+        x: 6
+        "y": 4
+        height: 4
+        width: 6
+      - visualization_id: Viz_6
+        x: 9
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_7
+        x: 3
+        "y": 0
+        height: 4
+        width: 3
+      - visualization_id: Viz_8
+        x: 6
+        "y": 0
+        height: 4
+        width: 3
+    - name: Tab 2
+      description: ""
+    - name: Tab 3
+      description: ""
+    - name: Tab 4
+      description: ""
+    - name: Tab 5
+      description: ""
